@@ -1,0 +1,658 @@
+RecordData {
+		fields: {
+		LocIdent {
+				ident: `Health`,
+				pos: Original(
+				RawSpan {
+						src_id: FileId(3),
+						start: ByteIndex(52),
+						end: ByteIndex(58) 
+				}
+			),
+				generated: false 
+		}: 
+		Field {
+				value: Some(
+				NickelValue {
+						pos_idx: PosIdx(
+						2147487799
+					),
+						data: Record(
+						Alloc(
+							RecordData {
+									fields: {
+									LocIdent {
+											ident: `max`,
+											pos: Original(
+											RawSpan {
+													src_id: FileId(
+													3
+												),
+													start: ByteIndex(
+													81
+												),
+													end: ByteIndex(
+													84
+												) 
+											}
+										),
+											generated: false 
+									}: Field {
+											value: Some(
+											NickelValue {
+													pos_idx: PosIdx(
+													4147
+												),
+													data: Number(
+													100
+												)
+											}
+										),
+											metadata: SharedMetadata(
+											Some(
+												FieldMetadata {
+														doc: None,
+														annotation: TypeAnnotation {
+															typ: None,
+															contracts: [
+															LabeledType {
+																	typ: Type {
+																		typ: Number,
+																		pos: Original(
+																		RawSpan {
+																				src_id: FileId(
+																				3
+																			),
+																				start: ByteIndex(
+																				87
+																			),
+																				end: ByteIndex(
+																				93
+																			) 
+																		}
+																	) 
+																},
+																	label: Label {
+																		typ: Type {
+																			typ: Number,
+																			pos: Original(
+																			RawSpan {
+																					src_id: FileId(
+																					3
+																				),
+																					start: ByteIndex(
+																					87
+																				),
+																					end: ByteIndex(
+																					93
+																				) 
+																			}
+																		) 
+																	},
+																		diagnostics: [
+																	],
+																		span: PosIdx(
+																		4148
+																	),
+																		arg_idx: None,
+																		arg_pos: PosIdx(
+																		4294967295
+																	),
+																		polarity: Positive,
+																		path: Vector {
+																			root: None,
+																			length: 0,
+																			height: 0 
+																	},
+																		type_environment: [
+																	],
+																		field_name: Some(
+																		LocIdent {
+																				ident: `max`,
+																				pos: Original(
+																				RawSpan {
+																						src_id: FileId(
+																						3
+																					),
+																						start: ByteIndex(
+																						81
+																					),
+																						end: ByteIndex(
+																						84
+																					) 
+																				}
+																			),
+																				generated: false 
+																		}
+																	) 
+																} 
+															}
+														] 
+													},
+														opt: false,
+														not_exported: false,
+														priority: Bottom 
+												}
+											)
+										),
+											pending_contracts: [
+										] 
+									},
+										LocIdent {
+											ident: `current`,
+											pos: Original(
+											RawSpan {
+													src_id: FileId(
+													3
+												),
+													start: ByteIndex(
+													115
+												),
+													end: ByteIndex(
+													122
+												) 
+											}
+										),
+											generated: false 
+									}: Field {
+											value: Some(
+											NickelValue {
+													pos_idx: PosIdx(
+													4149
+												),
+													data: Number(
+													100
+												)
+											}
+										),
+											metadata: SharedMetadata(
+											Some(
+												FieldMetadata {
+														doc: None,
+														annotation: TypeAnnotation {
+															typ: None,
+															contracts: [
+															LabeledType {
+																	typ: Type {
+																		typ: Number,
+																		pos: Original(
+																		RawSpan {
+																				src_id: FileId(
+																				3
+																			),
+																				start: ByteIndex(
+																				125
+																			),
+																				end: ByteIndex(
+																				131
+																			) 
+																		}
+																	) 
+																},
+																	label: Label {
+																		typ: Type {
+																			typ: Number,
+																			pos: Original(
+																			RawSpan {
+																					src_id: FileId(
+																					3
+																				),
+																					start: ByteIndex(
+																					125
+																				),
+																					end: ByteIndex(
+																					131
+																				) 
+																			}
+																		) 
+																	},
+																		diagnostics: [
+																	],
+																		span: PosIdx(
+																		4150
+																	),
+																		arg_idx: None,
+																		arg_pos: PosIdx(
+																		4294967295
+																	),
+																		polarity: Positive,
+																		path: Vector {
+																			root: None,
+																			length: 0,
+																			height: 0 
+																	},
+																		type_environment: [
+																	],
+																		field_name: Some(
+																		LocIdent {
+																				ident: `current`,
+																				pos: Original(
+																				RawSpan {
+																						src_id: FileId(
+																						3
+																					),
+																						start: ByteIndex(
+																						115
+																					),
+																						end: ByteIndex(
+																						122
+																					) 
+																				}
+																			),
+																				generated: false 
+																		}
+																	) 
+																} 
+															}
+														] 
+													},
+														opt: false,
+														not_exported: false,
+														priority: Bottom 
+												}
+											)
+										),
+											pending_contracts: [
+										] 
+									},
+										LocIdent {
+											ident: `_rs_derive`,
+											pos: Original(
+											RawSpan {
+													src_id: FileId(
+													4
+												),
+													start: ByteIndex(
+													45
+												),
+													end: ByteIndex(
+													55
+												) 
+											}
+										),
+											generated: false 
+									}: Field {
+											value: Some(
+											NickelValue {
+													pos_idx: PosIdx(
+													2147487809
+												),
+													data: Array(
+													Alloc(
+														ArrayData {
+																array: Slice {
+																	vec: Vector {
+																		root: Some(
+																		Leaf {
+																				data: Chunk[
+																				NickelValue {
+																						pos_idx: PosIdx(
+																						2147487810
+																					),
+																						data: String(
+																						bevy::prelude::Component
+																					)
+																				}
+																			] 
+																		}
+																	),
+																		length: 1,
+																		height: 0 
+																},
+																	start: 0,
+																	end: 1 
+															},
+																pending_contracts: [
+															] 
+														}
+													)
+												)
+											}
+										),
+											metadata: SharedMetadata(
+											Some(
+												FieldMetadata {
+														doc: None,
+														annotation: TypeAnnotation {
+															typ: None,
+															contracts: [
+															LabeledType {
+																	typ: Type {
+																		typ: Array(
+																		Type {
+																				typ: String,
+																				pos: Original(
+																				RawSpan {
+																						src_id: FileId(
+																						4
+																					),
+																						start: ByteIndex(
+																						64
+																					),
+																						end: ByteIndex(
+																						70
+																					) 
+																				}
+																			) 
+																		}
+																	),
+																		pos: Original(
+																		RawSpan {
+																				src_id: FileId(
+																				4
+																			),
+																				start: ByteIndex(
+																				58
+																			),
+																				end: ByteIndex(
+																				70
+																			) 
+																		}
+																	) 
+																},
+																	label: Label {
+																		typ: Type {
+																			typ: Array(
+																			Type {
+																					typ: String,
+																					pos: Original(
+																					RawSpan {
+																							src_id: FileId(
+																							4
+																						),
+																							start: ByteIndex(
+																							64
+																						),
+																							end: ByteIndex(
+																							70
+																						) 
+																					}
+																				) 
+																			}
+																		),
+																			pos: Original(
+																			RawSpan {
+																					src_id: FileId(
+																					4
+																				),
+																					start: ByteIndex(
+																					58
+																				),
+																					end: ByteIndex(
+																					70
+																				) 
+																			}
+																		) 
+																	},
+																		diagnostics: [
+																	],
+																		span: PosIdx(
+																		4159
+																	),
+																		arg_idx: None,
+																		arg_pos: PosIdx(
+																		4294967295
+																	),
+																		polarity: Positive,
+																		path: Vector {
+																			root: None,
+																			length: 0,
+																			height: 0 
+																	},
+																		type_environment: [
+																	],
+																		field_name: Some(
+																		LocIdent {
+																				ident: `_rs_derive`,
+																				pos: Original(
+																				RawSpan {
+																						src_id: FileId(
+																						4
+																					),
+																						start: ByteIndex(
+																						45
+																					),
+																						end: ByteIndex(
+																						55
+																					) 
+																				}
+																			),
+																				generated: false 
+																		}
+																	) 
+																} 
+															}
+														] 
+													},
+														opt: false,
+														not_exported: false,
+														priority: Neutral 
+												}
+											)
+										),
+											pending_contracts: [
+										] 
+									}
+								},
+									attrs: RecordAttrs {
+										open: true,
+										frozen: false 
+								},
+									sealed_tail: None 
+							}
+						)
+					)
+				}
+			),
+				metadata: SharedMetadata(
+				Some(
+					FieldMetadata {
+							doc: None,
+							annotation: TypeAnnotation {
+								typ: None,
+								contracts: [
+								LabeledType {
+										typ: Type {
+											typ: Contract(
+											NickelValue {
+													pos_idx: PosIdx(
+													4153
+												),
+													data: Term(
+													Op1(
+														Op1Data {
+																op: RecordAccess(
+																LocIdent {
+																		ident: `Component`,
+																		pos: Original(
+																		RawSpan {
+																				src_id: FileId(
+																				3
+																			),
+																				start: ByteIndex(
+																				63
+																			),
+																				end: ByteIndex(
+																				72
+																			) 
+																		}
+																	),
+																		generated: false 
+																}
+															),
+																arg: NickelValue {
+																	pos_idx: PosIdx(
+																	4152
+																),
+																	data: Term(
+																	Var(
+																		LocIdent {
+																				ident: `T`,
+																				pos: Original(
+																				RawSpan {
+																						src_id: FileId(
+																						3
+																					),
+																						start: ByteIndex(
+																						61
+																					),
+																						end: ByteIndex(
+																						62
+																					) 
+																				}
+																			),
+																				generated: false 
+																		}
+																	)
+																)
+															} 
+														}
+													)
+												)
+											}
+										),
+											pos: Original(
+											RawSpan {
+													src_id: FileId(
+													3
+												),
+													start: ByteIndex(
+													61
+												),
+													end: ByteIndex(
+													72
+												) 
+											}
+										) 
+									},
+										label: Label {
+											typ: Type {
+												typ: Contract(
+												NickelValue {
+														pos_idx: PosIdx(
+														4153
+													),
+														data: Term(
+														Op1(
+															Op1Data {
+																	op: RecordAccess(
+																	LocIdent {
+																			ident: `Component`,
+																			pos: Original(
+																			RawSpan {
+																					src_id: FileId(
+																					3
+																				),
+																					start: ByteIndex(
+																					63
+																				),
+																					end: ByteIndex(
+																					72
+																				) 
+																			}
+																		),
+																			generated: false 
+																	}
+																),
+																	arg: NickelValue {
+																		pos_idx: PosIdx(
+																		4152
+																	),
+																		data: Term(
+																		Var(
+																			LocIdent {
+																					ident: `T`,
+																					pos: Original(
+																					RawSpan {
+																							src_id: FileId(
+																							3
+																						),
+																							start: ByteIndex(
+																							61
+																						),
+																							end: ByteIndex(
+																							62
+																						) 
+																					}
+																				),
+																					generated: false 
+																			}
+																		)
+																	)
+																} 
+															}
+														)
+													)
+												}
+											),
+												pos: Original(
+												RawSpan {
+														src_id: FileId(
+														3
+													),
+														start: ByteIndex(
+														61
+													),
+														end: ByteIndex(
+														72
+													) 
+												}
+											) 
+										},
+											diagnostics: [
+										],
+											span: PosIdx(
+											4154
+										),
+											arg_idx: None,
+											arg_pos: PosIdx(
+											4294967295
+										),
+											polarity: Positive,
+											path: Vector {
+												root: None,
+												length: 0,
+												height: 0 
+										},
+											type_environment: [
+										],
+											field_name: Some(
+											LocIdent {
+													ident: `Health`,
+													pos: Original(
+													RawSpan {
+															src_id: FileId(
+															3
+														),
+															start: ByteIndex(
+															52
+														),
+															end: ByteIndex(
+															58
+														) 
+													}
+												),
+													generated: false 
+											}
+										) 
+									} 
+								}
+							] 
+						},
+							opt: false,
+							not_exported: false,
+							priority: Neutral 
+					}
+				)
+			),
+				pending_contracts: [
+			] 
+		}
+	},
+		attrs: RecordAttrs {
+			open: false,
+			frozen: false 
+	},
+		sealed_tail: None 
+}
+//vim:ft=rust:fdm=indent:fdl=0
